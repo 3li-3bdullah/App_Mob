@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "sheet",
       theme: ThemeData(fontFamily: 'Cairo'),
-      home: Container(child:Center(child:Text("sheet")),
+      home: Container(child:Center(child:Text("sheet")),child: ListTile(title:Text("Main Screen")),
     );
   }
 }
